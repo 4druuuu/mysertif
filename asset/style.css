@@ -7,19 +7,19 @@
 }
 
 body {
-  background-color: #f1f1f1;
+  background-color: #ffff;
 }
 
 .MySertif {
   background-color: #31465a;
   color: #fff;
   box-shadow: 4px 6px 6px 2px #00000040;
-  padding: 1rem;
+  padding: 1.2rem;
   font-family: "Poppins", sans-serif;
   position: fixed;
   width: 100%;
-  border-radius: 0 0 10px 10px;
   z-index: 1;
+  opacity: 0.9;
   text-align: center;
 }
 .MySertif h1 {
@@ -46,13 +46,15 @@ body {
   max-width: 100%;
   object-fit: cover;
   border-radius: 10px;
-  box-shadow: 4px 6px 6px 2px #00000040;
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2);
   margin-top: 0.5rem;
 }
 
 .sertImg img:hover {
   transform: scale(1.1);
   transition: 1s ease-in-out;
+  cursor: pointer;
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.5);
 }
 
 /* Animation Scroll */
